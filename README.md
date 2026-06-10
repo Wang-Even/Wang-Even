@@ -13,7 +13,7 @@
 </h1>
 
 <p>
-  <b>Algorithm Engineer · Robot Learning · Reinforcement Learning · World Models · Embodied AI</b>
+  <b>Undergrad Student · Robot Learning · Reinforcement Learning · World Models · Embodied AI</b>
 </p>
 
 <p>
