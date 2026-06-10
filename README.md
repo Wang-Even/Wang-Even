@@ -34,7 +34,7 @@
 
 ```python
 class EvenWangLab:
-    identity = "Algorithm Engineer"
+    identity = "Student"
     domain = [
         "Embodied AI",
         "Robot Learning",
