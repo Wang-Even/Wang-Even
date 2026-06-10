@@ -21,7 +21,7 @@
 
 ## 👋 About Me
 
-I am an algorithm engineer interested in **robot learning, reinforcement learning, world models, and embodied intelligence**.
+I am an undergraduate student in Shanghaijiaotong University majoring in Information Engineering now.My interests focus on **robot learning, reinforcement learning, world models, and embodied intelligence**.
 
 My work focuses on building agents that can perceive, model, plan, and act in complex environments. I am especially interested in hierarchical robot control systems, Dreamer-style world models, video-enhanced offline reinforcement learning, and sim-to-real deployment for humanoid robots.
 
