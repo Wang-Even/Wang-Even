@@ -82,28 +82,7 @@ class EvenWangLab:
 
 ---
 
-## 🛰️ Research Navigation Map
 
-<div align="center">
-
-```mermaid
-flowchart LR
-    A[Perception] --> B[World Model]
-    B --> C[Planning]
-    C --> D[Skill Policy]
-    D --> E[Robot Execution]
-    E --> F[Real-World Feedback]
-    F --> B
-
-    B -. latent dynamics .-> G[Dreamer-style MBRL]
-    D -. reusable skills .-> H[Hierarchical RL]
-    C -. tactics .-> I[Self-Play / Multi-Agent RL]
-    F -. sim-to-real .-> J[Humanoid Deployment]
-```
-
-</div>
-
----
 
 ## 🧠 Research Modules
 
@@ -191,44 +170,7 @@ signals     : historical rate + market sentiment
 
 ---
 
-## 🧩 System Architecture I Care About
 
-<div align="center">
-
-```text
-┌──────────────────────┐
-│   Simulation World   │
-│ Isaac Gym / MetaWorld│
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Representation      │
-│  Latent State Model  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Policy Learning     │
-│  RL / IL / Self-Play │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Skill Execution     │
-│  Move / Pass / Trap  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Real Robot Interface │
-│ Sim-to-Real Control  │
-└──────────────────────┘
-```
-
-</div>
-
----
 
 ## 🛠️ Toolchain
 
